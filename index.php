@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="css/bootstrap.min.css"></link> 
     <link rel="stylesheet" href="css/entrance.css"></link>
     <title>Главное меню</title>
-
 </head>
 <body>
     <style>
