@@ -17,21 +17,7 @@
 
 </head>
 <body>
-    <style>
-    body{
-        overflow:hidden;
-    }
-    </style>
-        <!--<div class="container">-->
-        <!--<div class="overlay">-->
-        <!--    <p class="screen">Welcome</p>-->
-        <!--    <div class="intro">-->
-        <!--            <button class="myBtn" onclick="fadeOut()">Коснитесь</button>-->
-        <!--    </div>-->
-        <!--</div>-->
-        <!--<div class="overlay-2"></div>-->
-
-
+        
     <div class="h1"><h1>Профайл</h1></div>
   <audio autoplay>
     <source src="audio/play.mp3" type="audio/mpeg">
@@ -127,6 +113,7 @@
 			alert("Спасибо!");
 			setTimeout(function() {
 				// Done Functions
+				window.location='logout.php'
 				th.trigger("reset");
 			}, 1000);
 		});
@@ -136,10 +123,8 @@
     });
 </script>
 
-<!--<script type="text/javascript" src="js/preloader.js"></script> -->
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 	<script src="mail/script.js"></script>
 </body>
 
 </html>
-
