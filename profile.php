@@ -17,15 +17,14 @@
 
 </head>
 <body>
-        
+	
     <div class="h1"><h1>Профайл</h1></div>
   <audio autoplay>
     <source src="audio/play.mp3" type="audio/mpeg">
       <source src="" type="audio.mp3">
     Аудио не поддерживается вашим браузером
   </audio>
-  
-
+	
   <form>
       <!-- Скрытые поля для отправки на почту. -->
 		<input type="hidden" name="project_name" value="Project_TRLogic">
