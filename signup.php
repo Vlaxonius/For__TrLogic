@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="css/bootstrap.min.css"></link> 
     <link rel="stylesheet" href="css/style_join.css"></link>
     <title>Регистрация</title>
-
 </head>
 <body>
   <?php
