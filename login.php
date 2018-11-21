@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="css/bootstrap.min.css"></link> 
     <link rel="stylesheet" href="css/style_join.css"></link>
     <title>Вход</title>
-
 </head>
 <body>
     <?php
@@ -53,14 +52,8 @@
 	{		
 		echo '<div style="color: red;">'.array_shift($errors).'</div><hr>';
 	}
-
 ?>
-        <style>
-        body{
-        margin: 0 0 14rem;
-        }
-        </style>
-    
+
 	<div class="form">
 	<form action="/login.php" method="POST">
 		<!-- Скрытые поля для отправки на почту. -->
@@ -82,6 +75,5 @@
   	</form>
   </div>
   
-	</body>
-	</html>
-
+ </body>
+</html>
