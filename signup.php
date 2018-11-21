@@ -68,8 +68,6 @@
   {
     echo '<div style="color: red;">'.array_shift($errors).'</div><hr>';
   }
-
-
 ?>
 
 		<!-- Скрытые поля. -->
