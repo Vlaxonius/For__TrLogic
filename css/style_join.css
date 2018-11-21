@@ -1,6 +1,6 @@
 @font-face{
     font-family: TT Jenevers Medium Italic;
-    src: url(../fonts/P/TT Jenevers Medium Italic.otf);
+    src: url(../fonts/TT Jenevers Medium Italic.otf);
     font-weight: normal;
     font-style: normal;
 }
@@ -8,14 +8,25 @@
 body{
     background-size: cover;
 	background-repeat: no-repeat;
-    font-family: TT Jenevers Medium Italic, Arial, sans-serif;
+    	font-family: TT Jenevers Medium Italic, Arial, sans-serif;
 	font-weight: bold;
 	font-size: 14px;
-	overflow: auto;
-background: -webkit-linear-gradient(bottom left, rgba(155,158,163,1) 0%, rgba(185,187,190,1) 62%, rgba(188,190,193,0.7) 68%, rgba(203,204,206,0) 100%);
-background: -o-linear-gradient(bottom left, rgba(155,158,163,1) 0%, rgba(185,187,190,1) 62%, rgba(188,190,193,0.7) 68%, rgba(203,204,206,0) 100%);
-background: linear-gradient(to top right, rgba(155,158,163,1) 0%, rgba(185,187,190,1) 62%, rgba(188,190,193,0.7) 68%, rgba(203,204,206,0) 100%); /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9b9ea3', endColorstr='#00cbccce',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	margin: 0 0 24rem;
+    overflow: hidden;
+background: -webkit-linear-gradient(bottom left, rgba(155,158,163,1) 0%, rgba(185,187,190,1) 62%, 
+
+rgba(188,190,193,0.7) 68%, rgba(203,204,206,0) 100%);
+background: -o-linear-gradient(bottom left, rgba(155,158,163,1) 0%, rgba(185,187,190,1) 62%, rgba
+
+(188,190,193,0.7) 68%, rgba(203,204,206,0) 100%);
+background: linear-gradient(to top right, rgba(155,158,163,1) 0%, rgba(185,187,190,1) 62%, rgba
+
+(188,190,193,0.7) 68%, rgba(203,204,206,0) 100%); /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, 
+
+FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9b9ea3', 
+
+endColorstr='#00cbccce',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 	
 	
